@@ -21,7 +21,7 @@ I chose the [FakeStoreAPI](https://fakestoreapi.com/) for this project because i
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/product-search-app.git
+    git clone [https://github.com/your-username/product-search-app.git](https://github.com/hasanjunaid/SmartShopQuery.git)
     ```
 
 2. **Navigate to the project directory:**
