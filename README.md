@@ -27,7 +27,7 @@ I chose the [FakeStoreAPI](https://fakestoreapi.com/) for this project because i
 2. **Navigate to the project directory:**
 
     ```bash
-    cd product-search-app
+    cd SmartShopQuery
     ```
 
 3. **Install dependencies:**
@@ -46,7 +46,7 @@ I chose the [FakeStoreAPI](https://fakestoreapi.com/) for this project because i
 
 ## Contact
 
-For any inquiries or suggestions, feel free to reach out to [Your Name](mailto:your.email@example.com).
+For any inquiries or suggestions, feel free to reach out to Muhammad Hasan Junaid (mailto: mhasanjunaid07@gmail.com).
 
 ## License
 
