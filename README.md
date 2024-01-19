@@ -1,8 +1,53 @@
-# React + Vite
+# Smart Shop Query
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application for searching and displaying product information using the [FakeStoreAPI](https://fakestoreapi.com/). The app allows users to search for products and view detailed information about each product.
 
-Currently, two official plugins are available:
+## Implementation Strategy
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **SearchBox Component**: Provides a search input for users to enter product names. It fetches product data from the FakeStoreAPI and dynamically updates the displayed products as the user types.
+
+- **ProductDetail Component**: Displays detailed information about a selected product. It fetches the details from the API based on the product ID provided in the URL.
+
+- **React Router**: Used for handling navigation between the search page and individual product detail pages.
+
+- **Error Handling**: Implemented error messages for scenarios such as no matching products, API failures, and invalid product IDs.
+
+## API Choice
+
+I chose the [FakeStoreAPI](https://fakestoreapi.com/) for this project because it provides a simple and easy-to-use API with realistic product data. It allows for a straightforward implementation of a product search and detail display functionality.
+
+## Setup Instructions
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/your-username/product-search-app.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd product-search-app
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+4. **Run the application:**
+
+    ```bash
+    npm run dev
+    ```
+
+5. **Open your browser and go to [http://localhost:5713](http://localhost:5713) to view the app.**
+
+## Contact
+
+For any inquiries or suggestions, feel free to reach out to [Your Name](mailto:your.email@example.com).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
