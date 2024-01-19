@@ -27,7 +27,7 @@ I chose the [FakeStoreAPI](https://fakestoreapi.com/) for this project because i
 2. **Navigate to the project directory:**
 
     ```bash
-    cd SmartShopQuery
+    cd smartshopquery
     ```
 
 3. **Install dependencies:**
@@ -44,10 +44,14 @@ I chose the [FakeStoreAPI](https://fakestoreapi.com/) for this project because i
 
 5. **Open your browser and go to [http://localhost:5713](http://localhost:5713) to view the app.**
 
+## Deployed Version
+
+You can access the deployed version of Memo Stack at https://memostack.netlify.app/
+
 ## Contact
 
 For any inquiries or suggestions, feel free to reach out to Muhammad Hasan Junaid (mailto: mhasanjunaid07@gmail.com).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License.
