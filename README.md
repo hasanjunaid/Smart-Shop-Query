@@ -44,6 +44,10 @@ I chose the [FakeStoreAPI](https://fakestoreapi.com/) for this project because i
 
 5. **Open your browser and go to [http://localhost:5713](http://localhost:5713) to view the app.**
 
+## Deployed Version
+
+You can access the deployed version of Smart Shop Query at https://smartshopquery.netlify.app/
+
 ## Contact
 
 For any inquiries or suggestions, feel free to reach out to Muhammad Hasan Junaid (mailto: mhasanjunaid07@gmail.com).
