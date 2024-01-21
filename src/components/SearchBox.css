@@ -1,10 +1,9 @@
 body {
-  font-family: 'Sans-serif', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0;
   background-image: url("../assets/background.jpg");
+  background-attachment: fixed;
 }
-
-
 
 .container {
   color: black;
@@ -17,6 +16,7 @@ body {
   width: 100%;
   align-items: center;
   background-image: url("../assets/searchBackground.jpg");
+  z-index: 2;
 }
 
 input[type="search"] {
@@ -29,11 +29,11 @@ input[type="search"] {
 }
 
 .allCards {
-  margin-top: 130px;
+  margin-top: 250px;
   width: 70vw;
-  padding: 100px;
-  margin-left: 90px;
-  
+  padding: 10px;
+  transform: translateX(20%);
+  z-index: 1;
 }
 
 .card {
@@ -43,13 +43,10 @@ input[type="search"] {
   border: 1px solid #ccc;
   border-radius: 10px;
   text-align: center;
-  
 }
-
 
 .title h2 {
   margin: 0;
-  
 }
 
 .error {
@@ -58,9 +55,7 @@ input[type="search"] {
 }
 
 .no-results {
-  height: 10vh;
-  width: 100vw;
-  transform: translateX(35%);
-  justify-content: center;
-  color: #555;
+  font-size: xx-large;
+  text-align: center;
+  color: #ffffff;
 }
