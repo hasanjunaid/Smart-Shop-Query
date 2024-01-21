@@ -1,7 +1,5 @@
-// App.jsx
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./app.css"
 import SearchBox from "./components/SearchBox";
 import ProductDetail from "./components/ProductDetail";
 
